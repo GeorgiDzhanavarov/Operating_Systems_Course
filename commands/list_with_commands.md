@@ -2,7 +2,7 @@
 
 ###1. ls
 >  Командата ls (списък) се използва за изброяване на директории или файлове. По подразбиране (т.е. стартиране на ls без никакви опции) командата ще върне директориите и файловете на текущата директория, с изключение на скритите файлове.
-'''
+```
 ls [OPTIONS] [FILES]
 ls -a |	list all files including hidden file starting with '.'
 ls --color |	colored list [=always/never/auto]
@@ -19,4 +19,4 @@ ls -s |	list file size
 ls -S	| sort by file size
 ls -t |	sort by time & date
 ls -X |	sort by extension name
-'''
+```
