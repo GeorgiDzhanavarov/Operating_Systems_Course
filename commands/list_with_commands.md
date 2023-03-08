@@ -16,7 +16,7 @@ ls -ls     |	list with long format with file size
 ls -r      |	list in reverse order
 ls -R      |	list recursively directory tree
 ls -s      |	list file size
-ls -S	     | sort by file size
+ls -S      | sort by file size
 ls -t      |	sort by time & date
 ls -X      |	sort by extension name
 ```
