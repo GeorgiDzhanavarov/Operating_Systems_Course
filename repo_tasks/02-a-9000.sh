@@ -1,4 +1,5 @@
 #!/bin/bash
 
-
-find ~/myetc -name "c"
+tar -cf c_start.tar ~/myetc/c*
+rm myetc -r 
+rm c_start.tar
