@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sort /etc/passwd -n -t ':' -k3
+sort /etc/passwd -d -t ':' -k3
