@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cut -d ':' -f 5,6 /etc/passwd 
+cut -d ':' -f 1,6 /etc/passwd 
