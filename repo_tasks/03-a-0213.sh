@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cut -d '/' -f 2 /etc/passwd
+cat /etc/passwd | cut -d '/' -f 2
