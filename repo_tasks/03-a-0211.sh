@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cut -c 1-6 /etc/passwd 
+cat /etc/passwd | cut -c 2-6
