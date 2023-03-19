@@ -5,4 +5,4 @@ head -c 26 /etc/passwd
 head -n -4 /etc/passwd
 tail -n 17 /etc/passwd
 head -n 151 /etc/passwd | tail -n 1 
-head -n 13 /etc/passwd | tail -n 1 | tail -c 4 
+head -n 13 /etc/passwd  tail -c 4 
