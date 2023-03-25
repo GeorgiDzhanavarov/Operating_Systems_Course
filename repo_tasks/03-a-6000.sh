@@ -1,7 +1,7 @@
 #!/bin/bash
 
  cat ~/emp.data | awk 'BEGIN {i = 0} {i += 1} END {print(i)}'
- // easier: cat ~/emp.data | awk 'END {print NR}'
+ # easier: cat ~/emp.data | awk 'END {print NR}'
  
  cat ~/emp.data | awk 'NR == 3 {print $0}'
  
