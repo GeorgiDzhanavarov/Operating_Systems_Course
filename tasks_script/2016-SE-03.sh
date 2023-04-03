@@ -13,7 +13,7 @@ user = $(echo $line | cut -d':' -f1)
 home = $(echo $line | cut -d':' -f6)
 
 
-if [[ -z $home ]]; then
+if [[ -d $home ]]; then
   echo "$user has no homedir set"
   continue
 fi
